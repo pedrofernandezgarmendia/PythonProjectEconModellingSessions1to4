@@ -1,4 +1,4 @@
-from color_point import ColorPoint, PointException
+from colorpoint import ColorPoint, PointException
 class AdvancedPoint(ColorPoint):
     COLORS = ["red", "blue", "green", "yellow", "black", "white", "periwinkle"]
     def __init__(self, x, y, color):
