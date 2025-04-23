@@ -2,7 +2,7 @@ import random
 
 class Card:
     RANKS = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
-    SUITS = ["♣", "♦", "♥", "♠"]
+    SUITS = ["clubs", "diamonds", "hearts", "spades"]
     def __init__(self, suit, rank):
         if rank not in self.RANKS:
             raise ValueError("Invalid rank")

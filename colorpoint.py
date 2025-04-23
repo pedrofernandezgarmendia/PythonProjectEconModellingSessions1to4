@@ -26,10 +26,10 @@ if __name__ == "__main__":
     #           "cyan", "white", "burgundy", "periwinkle", "marsala"]
     # color_points = []
     # for i in range(10):
-    #     color_points.append(
-    #         ColorPoint(random.randint(-10, 10),
-    #                    random.randint(-10, 10),
-    #                    random.choice(colors)))
+    # color_points.append(
+    # ColorPoint(random.randint(-10, 10),
+    # random.randint(-10, 10),
+    # random.choice(colors)))
     #
     # print(color_points)
     # color_points.sort()
